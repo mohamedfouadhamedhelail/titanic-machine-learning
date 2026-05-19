@@ -1,42 +1,65 @@
-Titanic Survival Prediction (Machine Learning - Python)
+Titanic Machine Learning Project
 Overview
 
-This project applies Machine Learning techniques to the Titanic dataset to predict passenger survival based on features such as age, gender, class, and fare.
+This project is a beginner-level Machine Learning implementation using the famous Titanic dataset. The goal is to predict whether a passenger survived or not based on different features such as age, gender, passenger class, and fare.
 
-Objective
+Problem Statement
 
-The goal is to practice data preprocessing, exploratory data analysis (EDA), and building a basic machine learning model.
+The Titanic disaster is one of the most well-known events in history. This project aims to build a predictive model that estimates passenger survival using machine learning techniques.
 
 Dataset
 
-The dataset contains information about Titanic passengers:
+The dataset used is from Kaggle Titanic competition and includes:
 
+train.csv (used for training the model)
+test.csv (used for testing predictions)
+gender-based sample submission file
+
+Key features include:
+
+PassengerId
+Survived (target variable)
+Pclass
+Name
+Sex
 Age
-Gender
-Passenger Class
+SibSp
+Parch
 Fare
-Survival status
+Embarked
 Technologies Used
 Python
 Pandas
 NumPy
-Scikit-learn
 Matplotlib
-Steps
-Data Cleaning
-Handling Missing Values
+Scikit-learn
+Jupyter Notebook
+Workflow
+Data Loading
+Data Cleaning & Handling Missing Values
 Exploratory Data Analysis (EDA)
 Feature Engineering
 Model Training
 Model Evaluation
-Model Used
+Prediction Generation
+Machine Learning Model
+Logistic Regression (baseline model)
+Other models can be tested for better accuracy
+Results
 
-Logistic Regression (or your model)
+The model learns patterns from the dataset and predicts whether a passenger would survive or not with reasonable accuracy for a beginner-level project.
 
-What I Learned
-Basics of Machine Learning workflow
-Data preprocessing
-Model training and evaluation
+Key Learnings
+Understanding end-to-end ML pipeline
+Data preprocessing techniques
+Handling missing values
+Basic classification problem solving
+Using Scikit-learn for model building
+Project Status
+
+✔ Completed (Beginner Level)
+🔄 Can be improved with advanced models and feature engineering
 
 Author
+
 Mohamed Fouad Hamed Helail
